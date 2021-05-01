@@ -1,0 +1,386 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*first section*/
+a{
+    color:rgb(110, 110, 139);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+header{
+
+    width:1000px;
+  
+    margin: 20px auto;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+   border-radius: 50px;
+   box-sizing: border-box;
+   box-shadow: 0 2px 5px rgb(0, 0, 0 ,0.4);
+}
+/*list*/
+.nav-li{
+    text-transform: uppercase;
+ 
+}
+/* list contain*/
+.nav-li li {
+    display: inline-block;
+   margin-left: 10px;
+}
+/* the first word in first element in list*/
+ .active {
+  color:  darkred;
+}
+.nav-li li a:hover{
+ color: darkred;
+  transition: 0.6s;
+}
+/*button style to all button*/
+button{
+    text-transform:uppercase;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding:9px 25px ;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+.button1{
+    background-color: darkred;
+}
+/*the first word in templet*/
+h1{
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+
+
+
+/*second section*/
+
+/*the div contain the paragraph and buttons and imeges*/
+.all{
+    position: relative;
+     display: flex;
+     justify-content:flex-start;
+     margin:400px;
+     margin-top:50px;
+     margin-bottom: 0px;
+ 
+     
+ }
+
+ /*div contain the first paragraph and two button*/
+ .mark{
+    
+     color:rgb(110, 110, 139) ;
+     margin-top: 30px;
+   position: absolute;
+ }
+ /*div contain first img*/
+ .position{
+    z-index: 1;
+   margin-right: 150px;
+    margin-left:auto;
+}
+ /*first img*/
+ .imges{
+   
+     width: 270px;
+     height: 270px;
+     border-radius: 50%;
+     position:absolute;
+     
+      
+ }
+ 
+ /*first span in paragraph*/
+ .first-span{
+     color: red;
+     font-weight: bold;
+     font-size:30px ;
+ }
+ /*second span in paragraph*/
+ .second-span{
+     color: rgba(7, 7, 7, 0.925);
+     font-weight: bold;
+     font-size:50px;
+     
+ }
+ /*buttons in div all*/
+ 
+ .button2{
+ background-color: red;
+ margin: 0px;
+ }
+ .button3{
+ background-color: rgb(2, 2, 46);
+
+ }
+ /*div of clip path*/
+.contain{
+    height:100px;
+   width:100%;
+  margin-top: 180px;
+  background-color: rgb(238, 133, 151);;
+  clip-path: polygon(50% 99% ,180% -150% ,50% 100% ,-50% 100%);
+
+  
+ }
+
+
+ /*third section*/
+ /* second div that contain img progress*/
+ .second{
+    margin-top: 80px;
+     display: flex;
+     justify-content: space-between;
+     margin-left: 420px;
+     margin-right: 440px;
+   
+    
+ }
+ /*second img*/
+ .pic{
+    width: 250px;
+    height:400px;
+}
+
+       /*progress  */
+       /*the div that contain paragraph and the progress*/
+ .progress{
+     margin-left:80px;
+    
+ }
+ 
+ progress{
+    -webkit-appearance: none;
+    width:400px;
+    height:3px;
+    border-top: 0px;
+  margin-bottom: 10px;
+
+ }
+ /*the div that contain four progress*/
+ .div-progress{
+     margin-top: -10px;
+     
+ }
+ 
+ .deve::-webkit-progress-value{
+    background-color:red;
+    
+  
+
+ }
+ 
+ .ui::-webkit-progress-value{
+    background-color: rgb(41, 9, 129);
+    
+    
+   
+ }
+ .digital::-webkit-progress-value{
+    background-color: rgb(189, 15, 145);
+    
+    
+ }
+ .graphic::-webkit-progress-value{
+    background-color: rgb(226, 98, 24);
+ 
+    
+ }
+ /* the percent of progress*/
+.eighty{
+margin-left:370px;
+
+}
+.sixtyfive{
+    margin-left:370px;
+}
+.fortyfive{
+    margin-left:370px;
+}
+.fiftyfive{
+    margin-left:370px;
+}
+
+
+
+/*forth section*/
+ .third-dev{
+     border-top:solid rgb(238, 133, 151);;
+     border-bottom: solid rgb(238, 133, 151);;
+     border-top-left-radius:50px;
+     height: 300px;
+     margin-top: 80px;
+     
+ }
+ 
+ .div-of-third-dev{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    
+ }
+ 
+ .icon{
+     border: 3px dashed red;
+     padding: 20px;
+     border-radius: 50px;
+     background-color: white;
+     font-size:50px;
+     
+ }
+ .icons{
+     background-color: indianred;
+     width: 700px;
+     height: 5px;
+     display: flex;
+     justify-content: space-between;
+     top: 30%;
+     text-align: center;
+     position: relative;
+   align-items: center;
+ 
+  margin: 0 auto;
+  
+     
+ }
+ .icon2{
+ background-color:red;
+
+
+ }
+ .div-of-forth-div{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+ }
+
+
+
+ /*fifth section*/
+ /*div that contain  first three div */
+ .div1-four-div{
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    margin-top: 50px;
+ }
+ /*div that contain second three div*/
+ .div2-four-div{
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin:  auto;
+    margin-top: 50px;
+ }
+ /* class to all six div */
+ .flex-div{
+   
+    height: 270px;
+    background-color:white;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+ }
+ /*icon*/
+ .card{
+     font-size: 50px;
+     color: rgb(240, 61, 91);
+ }
+ h2{
+     font-size: 20px;
+ }
+/*last paragraph*/
+.last-p{
+    padding: 5px;
+    color: rgb(110, 110, 139);
+}
+/* style for last six button*/
+.button4{
+    background-color: #f21c31d6;
+    font-size: 13px;
+}
+.button5:hover{
+   background-color: #f21c31d6 ;
+   color: white;
+   transition: 0.6s;
+   }
+ /*style for last five button*/
+.button5{
+    background-color: white;
+    color: black;
+    border: 2px solid #f21c31d6;
+}
+/*anmation*/
+/* style for all six div*/
+.animation-div{
+    animation: coloring 5s infinite linear;
+    animation-direction: alternate;
+}
+@keyframes coloring{
+    from{
+      background-color: white;
+    }
+    to{
+      background-color: coral;
+      border-radius:70px;
+    }
+}
+.amina{
+    width: 300px;
+    height: 100%;
+    background-image: url("IMG_٢٠٢٠١١١٣_١١٢٠٢٣.jpg") ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
